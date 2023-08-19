@@ -238,7 +238,7 @@ label {
   body {
     height: 100vh;
     background-image: url(images/bg-main-desktop.png);
-    background-size: contain;
+    background-size: auto;
     background-repeat: no-repeat;
   }
 
