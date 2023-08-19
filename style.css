@@ -201,40 +201,40 @@ label {
   display: none;
 }
 .thanks-img {
-    text-align: center;
-  }
-  .thanks-img img {
-    margin-bottom: 20px;
-  }
-  .thanks-h1 {
-    margin-bottom: 10px;
-    font-weight: 500;
-  }
-  .thanks-p {
-    margin-bottom: 20px;
-    color: var(--Dark-grayish-violet);
-  }
-  .thanks-button{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .button-continue {
-    width: 315px;
-    padding: 1.8rem;
-    margin-top: 25px;
-    background-color: var(--Very-dark-violet);
-    color: var(--White);
-    border-style: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+  text-align: center;
+}
+.thanks-img img {
+  margin-bottom: 20px;
+}
+.thanks-h1 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.thanks-p {
+  margin-bottom: 20px;
+  color: var(--Dark-grayish-violet);
+}
+.thanks-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.button-continue {
+  width: 315px;
+  padding: 1.8rem;
+  margin-top: 25px;
+  background-color: var(--Very-dark-violet);
+  color: var(--White);
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 .on {
   display: block;
 }
 
-@media screen and (min-width: 415px) and (max-width: 1440px) {
+@media screen and (min-width: 376px) and (max-width: 1440px) {
   body {
     height: 100vh;
     background-image: url(images/bg-main-desktop.png);
